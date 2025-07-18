@@ -1,0 +1,31 @@
+fyra:
+  movie:
+    single: 'Movie'
+    plural: 'Movies'
+  tv_show:
+    single: 'TV Show'
+    plural: 'TV Shows'
+  game:
+    single: 'Game'
+    plural: 'Games'
+  activity:
+    single: 'Activity'
+    plural: 'Activities'
+  meal:
+    single: 'Meal'
+    plural: 'Meals'
+  nav:
+    random: nav.random
+    home: 'Home'
+    market: 'Market'
+    data:
+      title: 'Data'
+      movies: 'Movies'
+      tv_shows: 'TV Shows'
+      games: 'Games'
+      activities: 'Activities'
+      meals: 'Meals'
+  pages:
+    random:
+      h1: 'Find Your Random Activity'
+      show_result: 'Show Result'

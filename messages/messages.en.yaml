@@ -1,0 +1,670 @@
+error:
+  not_found: "Page not found"
+  an_error_occurred:
+    title: "An error occurred"
+    description: "An error occurred while processing your request. Please try again later."
+acp:
+  characterType:
+    tab:
+      general: "General"
+      attributes: "Attributes"
+      presentation: "Presentation"
+    field:
+      name: "Name"
+      description: "Description"
+      sizeMin: "Size Min"
+      sizeMax: "Size Max"
+      weightMax: "Weight Max"
+      weightMin: "Weight Min"
+      startingAge: "Starting age"
+      lifeExpectancy: "Life expectancy"
+      slug: "Slug"
+      game: "Game"
+      image: "Image"
+      abilities: "Abilities"
+      attribute: "Attribute"
+      typicalNames: "Typical names"
+global:
+  adult: "Adult"
+  finish_later: "Finish later"
+  rpcreate:
+    label: RpCreate
+  empty: "Empty"
+  new: "New"
+  left: "Left"
+  right: "Right"
+  both: "Both"
+  hello: "Hello name, welcome to app_name"
+  search: "Search"
+  admin:
+    settings: "Settings"
+    bundles: "Bundles"
+    script_historic: "Scripts historic"
+  baby:
+    label: "Baby"
+  budgets:
+    label: "Budgets"
+  fyra:
+    label: "Fyra"
+    data:
+      title: "Data"
+      movies:
+        title: "Movies"
+      tv_series:
+        title: "TV Series"
+      videos_games:
+        title: "Video Games"
+      activities:
+        title: "Activities"
+      meal:
+        title: "Meals"
+  market: "Market"
+  markets:
+    history: "Market History"
+  products: "Products"
+  no_records: "No records found"
+  version: "Version"
+  status:
+    label: "Status"
+  type: "Type"
+  description: "Description"
+  gender: "Gender"
+  age: "Age"
+  years_old: "years old"
+  size: "Size"
+  weight: "Weight"
+  dice_of_life: "Dice of life"
+  abilities: "Abilities"
+  characteristics: "Characteristics"
+  value: "Value"
+  modifier: "Modifier"
+  upload: "Upload"
+  reset_password: "Reset password"
+  logged_as: "Logged as"
+  roles:
+    admin: "Administrator"
+    user: "User"
+  validate: "Validate"
+  attributes:
+    title: "Attributes"
+    strength: "Strength"
+    dexterity: "Dexterity"
+    constitution: "Constitution"
+    intelligence: "Intelligence"
+    wisdom: "Wisdom"
+    charisma: "Charisma"
+    magic: "Magic"
+    attack: "Attack"
+    distance_attack: "Distance attack"
+    defense: "Defense"
+  read:
+    more: "Read more"
+  actions: "Actions"
+  accept: "Accept"
+  refuse: "Refuse"
+  next: "Next"
+  previous: "Previous"
+  select: "Select"
+  select_games:
+    label: "Select the game"
+  inactive: "Inactive"
+  active: "Active"
+  total: "Total"
+  create: "Create"
+  product:
+    name: "Name"
+    description: "Description"
+    price: "Price"
+    ai:
+      description: "Unlock the ai feature to generate description for your characters or your NPC, quest or scenario"
+  connection:
+    not:
+      secure: "This connection is not secure. Your data may be intercepted. 
+                For your security, all payment feature is disabled"
+  save: "Save"
+  back: "Back"
+  submit: "Submit"
+  close: "Close"
+  preview: "Preview"
+  form: "Form"
+  delete: "Delete"
+  edit: "Edit"
+  update: "Update"
+  update_all: "Update all"
+  install: "Install"
+  add: "Add a new"
+  registration_success: "Your account has been successfully created"
+  registration_error: "An error occurred while creating your account. Please try again"
+  facultative_field: "(optional)"
+  yes: "Yes"
+  no: "No"
+  show: "Show"
+  women: "Women"
+  woman: "Woman"
+  men: "Men"
+  other: "Other"
+  see_more: "See more"
+  my_account: "My account"
+  email: "Email"
+  password: "Password"
+  login: "Sign in"
+  logout: "Logout"
+  landmarks: "Landmarks"
+  starting_age: "Starting age"
+  life_expectancy: "Life expectancy"
+  size_min: "Minimum size"
+  size_max: "Maximum size"
+  weight_min: "Minimum weight"
+  weight_max: "Maximum weight"
+  typical_names: "Typical names"
+  starting_equipment: "Starting equipment"
+  weapons_armor: "Weapon and armor"
+  username: "Username"
+  users: "Users"
+  script_historic: "Scripts historic"
+  news: "News"
+  content: "Content"
+  others: "Others"
+  features: "Features"
+  feedbacks: "Feedbacks"
+  feedback: "Feedback"
+  dashboard: "Dashboard"
+  game: "Game"
+  campaign: "Campaign"
+  campaigns: "Campaigns"
+  account: "Account"
+  profession: "Profession"
+  settings: "Settings"
+  characters: "Characters"
+  breed: "Breed"
+  nav:
+    home: "Home"
+    news: "News"
+    community:
+      title: "Community"
+      characters: "Characters"
+      campaigns: "Campaigns"
+      games: "Games"
+    creator:
+      title: "Creator"
+      character: "Character"
+      campaign: "Campaign"
+      games: "Games"
+    profile: "Profile"
+    avatar: "Avatar"
+    admin: "Admin"
+    logout: "Logout"
+    login: "Sign in"
+    register: "Sign up"
+    settings: "Settings"
+    payment_method: "Payment method"
+    subscriptions: "Subscriptions"
+  breadcrumb:
+    home: "Home"
+  bbCode:
+    bold: "Bold"
+    italic: "Italic"
+    underline: "Underline"
+    strike: "Strike"
+    quote: "Quote"
+    quest: "Quest"
+    character: "Character"
+  footer:
+    copyright: 'All rights reserved'
+    navigation:
+      title: "Navigation"
+      homepage: "Home"
+      news: "News"
+      community:
+        title: "Community"
+        characters: "Characters"
+        campaigns: "Campaigns"
+        games: "Games"
+      about: "About"
+    legal:
+      title: "Legal"
+      legal_notice: "Legal notice"
+      terms_of_use: "Terms of use"
+      cookies: "Cookies"
+    support:
+      title: "Support &<br/>Contributions"
+      translations: "Translations"
+      feedbacks: "Feedbacks & Bug report"
+      contributions: "Contributions"
+maintenance:
+  title: "Maintenance"
+  message1: "We'll be back"
+  message2: "We're busy updating the site for you"
+  message3: "Please check back soon or check the social network"
+pages:
+  dashboard:
+    day_info:
+      title: "We are the <small id=\"dayOfWeek\"></small> <small id=\"day\"></small> <small id=\"month\"></small> <small id=\"year\"></small> and it's <small id=\"hour\"></small>:<small id=\"minute\"></small>:<small id=\"second\"></small>"
+  install:
+    heading1: "Installation"
+    description: "To install the application, follow these steps:"
+    module:
+      help: "To select multiple modules, press CTRL and click on the module"
+  change_password:
+    password:
+      label: "Please enter a password"
+      min_length: "Your password should be at least 8 characters"
+  home:
+    title: "RPG Character and Campaign Creation"
+    description: "Create legendary heroes and epic campaigns for your RPGs. Craft unique stories and characters that bring your fantasy worlds to life."
+    title_action: "Get started now"
+    login:
+      title: "Log in"
+    register:
+      title: "Join the community"
+    explanation:
+      creator:
+        campaign:
+          title: "Comprehensive RPG Campaign Builder: Create, Link, and Manage Your Campaigns with Ease"
+          description: "Our RPG Campaign Builder allows you to craft detailed campaigns that include every aspect of your adventure. Easily create non-player characters (NPCs), generate stats for them to engage in combat with your players, and link quests to specific scenarios. You can also associate NPCs with players for unique and story-driven quests. Our intuitive system gives you the tools to manage your campaign, keeping all the elements connected and coherent. Design epic quests, scenarios, and NPC interactions with ease, ensuring your campaigns are rich, immersive, and tailored to your players."
+          button: "See campaign examples"
+        character:
+          title: "Immersive RPG Character Creator: Build Unique Heroes for Your Campaigns"
+          description: "Dive into RPG character creation with our comprehensive and intuitive tool. Customize your heroes with a wide range of parameters: select gender, race, professions, character name, as well as height and weight. Our immersive user interface allows you to visualize the size differences between various races in real time, enhancing your connection to the game world. Create unique characters that bring your campaigns to life and enrich your fantasy adventures."
+          button: "See character examples"
+    create:
+      campaign:
+        title: Campaign
+      character:
+        title: Playable Character
+  feedback:
+    title: Feedback
+    description: "Welcome to the feedback page! Here you can share your ideas and suggestions to improve the site. Your feedback is valuable to us, and we appreciate your contribution to our community. Feel free to share your thoughts, report bugs, or suggest new features. We look forward to hearing from you!"
+    actions:
+      add: "Add a feedback"
+  scenario:
+    index:
+      title: "Scenarios of the campaign : campaign_name"
+      description: "Welcome to the scenarios page! Here you can create, edit, and manage scenarios for your role-playing games. Whether you're a game master or a player, scenarios are an essential part of any RPG campaign. Create exciting adventures, set challenging objectives, and reward your players with epic loot. Get started now and embark on thrilling scenarios with your friends!"
+    create:
+      title: "Create a scenario for the campaign"
+      description: "Create a scenario for your role-playing games. Define the title, content, objectives, and rewards of your scenario. You can also specify the necessary objects and the minimum number of players required. Whether you're a game master or a player, scenarios are a key element of any RPG campaign. Start creating your scenarios now and challenge your friends to epic adventures!"
+    update:
+      title: "Edit the scenario : scenario_name"
+      description: "Edit the scenario for your role-playing games. You can modify the title, content, objectives, rewards, and other details of your scenario. Whether you're a game master or a player, scenarios are an essential part of any RPG campaign. Customize your scenarios to create exciting adventures and challenges for your friends. Get started now and enhance your role-playing experience!"
+    flash:
+      success: "The scenario has been successfully created"
+      updated: "The scenario has been successfully updated"
+      deleted: "The scenario has been successfully deleted"
+  quest:
+    index:
+      title: "Quests of the campaign : campaign_name"
+      description: "Welcome to the quests page! Here you can create, edit, and manage quests for your role-playing games. Whether you're a game master or a player, quests are an essential part of any RPG campaign. Create exciting adventures, set challenging objectives, and reward your players with epic loot. Get started now and embark on thrilling quests with your friends!"
+    create:
+      title: "Create a quest for the campaign"
+      description: "Create a quest for your role-playing games. Define the title, content, rewards, and objectives of your quest. You can also specify the minimum number of players required and the necessary objects. Whether you're a game master or a player, quests are a key element of any RPG campaign. Start creating your quests now and challenge your friends to epic adventures!"
+    update:
+      title: "Edit the quest : quest_name"
+      description: "Edit the quest for your role-playing games. You can modify the title, content, rewards, objectives, and other details of your quest. Whether you're a game master or a player, quests are an essential part of any RPG campaign. Customize your quests to create exciting adventures and challenges for your friends. Get started now and enhance your role-playing experience!"
+    form:
+      heading: "Create a quest"
+      title: "Title"
+      content: "Content"
+      nb_minimal_players: "Minimum number of players"
+      necessary_object: "Necessary objects"
+      rewards: "Rewards"
+      is_main: "Main quest?"
+      objective: "Objective"
+      place: "Place"
+    flash:
+      created: "The quest has been successfully created"
+      updated: "The quest has been successfully updated"
+      deleted: "The quest has been successfully deleted"
+  npc:
+    index:
+      title: "NPCs of the campaign : campaign_name"
+      description: "Welcome to the NPCs page! Here you can create, edit, and manage NPCs for your role-playing games. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Create unique characters, define their personalities, talents, and affiliations, and add them to your campaign. Get started now and bring your NPCs to life in epic adventures!"
+    create:
+      title: "Create a NPC for the campaign"
+      description: "Create a NPC for your role-playing games. Define the name, image localisation, likes, hates, personality, situation, talent, resources, affiliation, type, and profession of your NPC. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Start creating your NPCs now and bring unique characters to your adventures!"
+    update:
+      title: "Edit the NPC : npc_name"
+      description: "Edit the NPC for your role-playing games. You can modify the name, image, localisation, likes, hates, personality, situation, talent, resources, affiliation, type, and profession of your NPC. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Customize your NPCs to create unique characters and bring them to life in epic adventures!"
+    form:
+      heading: "Create a NPC"
+      image:
+        label: "Image"
+        help: "Choose an image for the NPC (jpg, png, webp)"
+      name:
+        label: "Name"
+        help: "The name of the NPC"
+      localisation:
+        label: "Localisation"
+        help: "Where can the NPC be found?"
+      is_main:
+        label: "Main NPC?"
+        help: "Is this NPC a main character?"
+      likes:
+        label: "Likes"
+        help: "What does the NPC like? He likes humans, elf ?"
+      hates:
+        label: "Hates"
+        help: "What does the NPC hate? He hates half-orc, dwarf ?"
+      personality:
+        label: "Personality"
+        help: "What is the NPC's personality?"
+      situation:
+        label: "Situation"
+        help: "The Npc is in danger ? He is in a good situation ?"
+      talent:
+        label: "Talent"
+        help: "What is the NPC's talent?"
+      resources:
+        label: "Resources"
+        help: "What resources does the NPC have?"
+      affiliation:
+        label: "Affiliation"
+        help: "To which group does the NPC belong?"
+      type:
+        label: "Race"
+        help: "What is the race of the NPC?"
+      profession:
+        label: "Profession"
+        help: "What is the profession of the NPC?"
+      links:
+        label: "Links"
+        help: "To remove a link, press CTRL and click on the character"
+    flash:
+      error:
+        character_type_not_found: "The character type was not found"
+        profession_not_found: "The profession was not found"
+      attributes_added: "The attributes have been successfully added"
+      success: "The NPC has been successfully created"
+      updated: "The NPC has been successfully updated"
+      deleted: "The NPC has been successfully deleted"
+  login:
+    remember_me: "Remember me"
+    not_have_account: "Don't have an account?"
+    forgot_password: "Forgot your password?"
+  registration:
+    error:
+      email_already_exists: "This email is already in use"
+      username_already_exists: "This username is already in use"
+      email_invalid: "This email is invalid"
+  footer:
+    copyright: 'All rights reserved'
+    feedback: 'Feedback'
+    about: 'About'
+    legal_notice: 'Legal notice'
+    terms_of_use: 'Terms of use'
+  index:
+    your_creation:
+      title: "Your creations"
+    choice_create:
+      title: "Create a character or a campaign"
+      character:
+        img:
+          alt: "Create a character for COF"
+      campaign:
+        img:
+          alt: "Create a campaign for COF"
+  campaign:
+    no_master: "No master"
+    create:
+      title: "Create a campaign"
+      description: "Create a campaign for your role-playing games. You can add players, quests, scenarios, and NPCs to your campaign"
+    update:
+      title: "Edit the campaign : campaign_name"
+      description: "Edit the campaign for your role-playing games. You can add players, quests, scenarios, and NPCs to your campaign"
+    add_player:
+      title: "Add a player"
+      description: "Add a player to the campaign : campaign_name"
+      placeholder: "Name of the player"
+      label: "Name of the player"
+      choose_character: "Choose a character"
+    title:
+      start: "The campaign of "
+    nav:
+      index: "Campaign"
+      characters: "Characters"
+      scenario: "Scenarios"
+      quests: "Quests"
+      npc: "NPC"
+    scenario:
+      title: "Scenarios"
+      list:
+        title: "Title"
+        content: "Content"
+        actions: "Actions"
+    master: "Master"
+    created_by: "Created by"
+    edit:
+      description_help: "Attention, if you add quests or scenarios, they will be visible to everyone"
+    modal:
+      add_or_edit_master:
+        title: "Add or edit the master of the game"
+        placeholder: "Name of the game master"
+        label: "Name of the game master"
+    menu:
+      edit: "Edit the campaign"
+      add:
+        master: "Add a master"
+        player: "Add a player"
+        quest: "Add a quest"
+        scenario: "Add a scenario"
+        npc: "Add a Non Player Character"
+    npc:
+      list:
+        name:
+          label: "Name"
+        is_main:
+          label: "Main NPC?"
+        actions:
+          label: "Actions"
+        localisation:
+          label: "Localisation"
+        personality:
+          label: "Personality"
+        situation:
+          label: "Situation"
+        talent:
+          label: "Talent"
+  about:
+    seo:
+      title: "RPG Character Creation and Campaign Management - About us"
+      description: "Discover the story and vision of app_name, a community-driven platform dedicated to RPG character creation and campaign management. We are a passionate initiative, driven by the desire to provide an immersive and user-friendly experience for RPG enthusiasts. Join our community where everyone is free to share their ideas to improve the site. Explore our tools and features and embark on epic adventures with app_name"
+    title: "Welcome to app_name"
+    title1: "About us"
+    text: "app_name began as a passionate project among friends, with the goal of simplifying character creation and campaign management for our role-playing games. Initially designed for our own use, the site quickly evolved to provide a comprehensive experience for RPG enthusiasts"
+    title2: "Our Story"
+    text2: "Our journey started with the desire to create characters and adventures for our role-playing sessions. Driven by this passion, we developed practical and user-friendly tools to enhance our gaming experience. Over time, we refined our platform, adding new features and improving the interface to offer the best possible experience to our users"
+    title3: "Our Mission"
+    text3: "Today, app_name is the culmination of our commitment to the role-playing community. Our platform is specially designed to streamline character creation and campaign management, starting with the game \"Chroniques Oubliées Fantasy.\" However, our vision doesn't end there. We aspire to become an essential resource for RPG enthusiasts by providing tools and features for a variety of gaming systems. Our ultimate goal is to empower every game master with the means to create memorable and immersive gaming experiences for their players"
+    text4: "app_name is first and foremost a project driven by passion and heart. It is a community-driven site where everyone is free to share their ideas to improve the site. Simply create an account and head to the \"Feedback\" menu. Ideas will be considered, and if they align with the developer's vision and the community's, they will be approved and implemented. Additionally, users can track the site's development or engage directly with other users on Discord (french community)"
+    text5: "Join us on this adventure and discover all that app_name has to offer!"
+  creator:
+    loading:
+      title: "Loading"
+      message1: "Registering your character ..."
+      message2: "Modeling your character ..."
+      message3: "Creating your character ..."
+      message4: "Learning the profession class profession_name ..."
+      message5: "Equipping your character ..."
+      message6: "Your character emerges from the shadows ..."
+    character:
+      title: "Create a new character"
+    gender:
+      label: 'Gender'
+      male: 'male'
+      female: 'female'
+      other: 'other'
+    breed:
+      label: 'Breed'
+    profession:
+      label: 'Profession'
+    age:
+      label: 'Age'
+    size:
+      label: 'Size'
+    weight:
+      label: 'Weight'
+    name:
+      label: 'Name'
+      placeholder: 'Enter the name of'
+      suggest_button: 'Click here to suggest a name'
+      missing: 'The name is missing'
+    description:
+      label: 'Description'
+      help: 'Describe your character in a few words (optional)'
+    attributes:
+      label: 'Attributes'
+      roll: 'Roll the dice'
+      description: "It's time to define your character's statistics. For this, please simulate a dice roll"
+      explain: "For each characteristic, you will roll 4 dice, keep the 3 highest, and add them together to form your statistic"
+      statistics:
+        too_low: "If the sum of the mods is less than 3, your character is considered unplayable. You can reroll the dice or continue at your own risk"
+  feedbacks:
+    title: "Feedbacks"
+    seo:
+      title: "Report a Bug or Suggest Improvements"
+      description: "Help us improve our website! Report any bugs or suggest enhancements to ensure a better user experience. Your feedback is valuable and helps us grow."
+      title_create: "Create a feedback"
+      description_create: "Create a feedback to report a bug or suggest improvements. Your feedback is valuable and helps us improve our website. Share your ideas, report any issues, or suggest new features to enhance the user experience. We appreciate your contribution to our community!"
+    create:
+      feedback: "Create a feedback"
+    no_data: "No feedbacks found"
+    back_list: "Back to the list"
+    form:
+      title:
+        label: "Title"
+      description:
+        label: "Description"
+      type:
+        label: "Type"
+        bug: "Bug"
+        translation: "Translation"
+        style: "Style"
+        feature: "Feature"
+      feature:
+        label: "Application"
+    list:
+      title: "Title"
+      author: "Author"
+      createdAt: "Date"
+      status: "Status"
+      actions: "Actions"
+  community:
+    seo:
+      title: 'Hall of Fame : Community'
+      description: "Welcome to the community page! Here you can find all the information you need to get started with the community"
+    title: Community
+    description: "Welcome to the community page! Here you can find all the information you need to get started with the community"
+    characters:
+      title: "Characters"
+    campaigns:
+      title: "Campaigns"
+    games:
+      title: "Games"
+    filters:
+      all: "All"
+      characters: "Characters"
+      campaigns: "Campaigns"
+      games: "Games"
+  profile:
+    settings:
+      email:
+        label: "Email"
+      old_password:
+        label: "Old password"
+      password:
+        label: "Password"
+        repeat:
+          label: "Repeat password"
+    modal:
+      add_payment_methods:
+        title: "Add a payment method"
+        card_number: "Card number"
+        expiration_date: "Expiration date"
+        cvc: "CVC"
+        submit: "Add"
+    welcome: "Welcome to your new profile page!"
+    verification:
+      message: "Your email is not verified. Please check your mail and follow the instructions to verify your account"
+      message2: "Don't forget to check your spam folder"
+      message3: "Don't see the email?"
+      resend: "Click here to resend the email"
+      success: "Your account has been successfully verified. You can now log in"
+      error: "An error occurred while verifying your account. Please try again"
+      email:
+        sent: "A verification email has been sent to your email address. Please check your inbox and follow the instructions to verify your account"
+    avatar:
+      success: "Your avatar has been successfully updated"
+    nav:
+      profile: "Profile"
+      avatar: "Avatar"
+      main_settings: "Settings"
+      my_infos: "Mes informations"
+      health: "Santé"
+      health_settings: "Paramètres de santé"
+      notifications: "Notifications"
+      security: "Security"
+    my_infos:
+      username:
+        title: "Username"
+      identity:
+        title: "Identity"
+        firstname: "Firstname"
+        secondname: "Secondname"
+        thirdname: "Thirdname"
+        lastname: "Lastname"
+        birthdate: "Birthdate"
+    main_settings:
+      title: "Main settings"
+      success: "Your settings have been successfully updated"
+      password:
+        not_match: "The passwords do not match"
+        invalid_old: "The old password is invalid"
+        empty: "The password is empty"
+        empty_old: "The old password is empty"
+      email:
+        empty: "The email is empty"
+      preference:
+        title: "Preferences"
+        is_enabled_sound:
+          label: "Enable sound (In Character creation)"
+        is_enabled_music:
+          label: "Enable music (In Character creation)"
+        is_enabled_beta_preview:
+          label: "Enable beta preview/features"
+        success: "Your preferences have been successfully updated"
+        measurement_system:
+          label: "Measurement system"
+          metric: "Metric"
+          imperial: "Imperial"
+          chinese: "Chinese"
+          japanese: "Japanese"
+          nautical: "Nautical"
+    payment_settings:
+      title: "Payment settings"
+      card: "Card"
+      add_card: "Add a card"
+      no_card: "No card added"
+      card_added: "Card added successfully"
+      card_deleted: "Card deleted successfully"
+      delete_card_confirm: "Are you sure you want to delete this card?"
+      invalid_data: "Invalid data"
+      user_not_found: "User not found"
+    subscriptions_settings:
+      title: "Subscriptions"
+      products:
+        title: "Features"
+  character:
+    information:
+      title: "Character's informations"
+    related_content:
+      campaign:
+        title: "Campaign related to the character"
+        description: "The campaign in which the character is involved"
+    generate:
+      pdf:
+        button: "Generate PDF"
+  reset_password:
+    title: "Reset your password"
+    request:
+      description: "Enter your email address, and we will send you a link to reset your password."
+      button: "Send reset link"

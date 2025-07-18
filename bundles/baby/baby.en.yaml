@@ -1,0 +1,80 @@
+baby:
+  form:
+    milking:
+      success: "Breastfeeding has been successfully recorded."
+    sleep:
+      success: "Sleep has been successfully recorded."
+    layer_change:
+      success: "Layer change has been successfully recorded."
+  index:
+    title: "Baby"
+    history: "History"
+  history:
+    title: "History"
+    breasts:
+      title: "Breastfeeding history"
+      duration: "Duration"
+      pump_at: "Pumped/breastfed at"
+      which: "Which breast?"
+      start_with: "Start with"
+    layer_changes:
+      title: "Diaper change history"
+      change_at: "Changed at"
+      is_poop: "Poop?"
+      color: "Color"
+      description: "Description"
+    sleeps:
+      title: "Sleep history"
+      start_at: "Started at"
+      end_at: "Ended at"
+  card:
+    global_statistics:
+      title: "Global statistics for name"
+      breast:
+        title: "Breastfeeding"
+        next: "Next"
+      sleep:
+        title: "Sleep"
+        average_hours_per_day: "Hours / day"
+        average_interval_between_sleeps: "Interval (hours)"
+        estimated_next_sleep: "Next"
+      layer_change:
+        title: "Layer change"
+        per_day: "Number / day"
+        poop_per_day: "Poop / day"
+        average_interval: "Interval (hours)"
+        next: "Next"
+      average:
+        breast_feed_duration: "Duration (minutes)"
+        breast_feed_per_day: "Number / day"
+        interval_between_breast_feeds: "Interval (hours)"
+  modal:
+    layer_change_log:
+      title: "Layer change"
+    sleep_log:
+      title: "Log sleep"
+    breasts_pump_log:
+      title: "Log breastfeeding"
+  breasts_pump_log:
+    breast_start:
+      label: "Start with"
+    which:
+      label: "Which breast?"
+    pump_at:
+      label: "Pumped/breastfed at"
+    duration:
+      label: "Duration (in minutes)"
+  sleep_log:
+    start_at:
+      label: "Started at"
+    end_at:
+      label: "Ended at"
+  layer_change_log:
+    change_at:
+      label: "Changed at"
+    is_poop:
+      label: "Poop?"
+    color:
+      label: "Color"
+    description:
+      label: "Description"

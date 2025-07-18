@@ -1,0 +1,31 @@
+fyra:
+  movie:
+    single: 'Film'
+    plural: 'Films'
+  tv_show:
+    single: 'Série TV'
+    plural: 'Séries TV'
+  game:
+    single: 'Jeu'
+    plural: 'Jeux'
+  activity:
+    single: 'Activité'
+    plural: 'Activités'
+  meal:
+    single: 'Repas'
+    plural: 'Repas'
+  nav:
+    random: 'Fyra Aléatoire'
+    home: 'Accueil'
+    market: 'Marché'
+    data:
+      title: 'Données'
+      movies: 'Films'
+      tv_shows: 'Séries TV'
+      games: 'Jeux'
+      activities: 'Activités'
+      meals: 'Repas'
+  pages:
+    random:
+      h1: 'Trouvez Votre Activité Aléatoire'
+      show_result: 'Afficher le Résultat'

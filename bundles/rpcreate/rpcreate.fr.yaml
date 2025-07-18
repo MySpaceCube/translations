@@ -1,0 +1,90 @@
+nav:
+  home: Accueil
+  community: Communauté
+  characters: Personnages
+  campaigns: Campagnes
+  professions: Professions
+  characterTypes: Types de personnages
+  statistics: Statistiques
+  about: À propos
+  contact: Contact
+  legal: Mentions légales
+  privacyPolicy: Politique de confidentialité
+components:
+  statistics:
+    title: "Statistiques"
+  characters:
+    count: "Nombre de personnages"
+    see: "Voir les personnages"
+  campaigns:
+    count: "Nombre de campagnes"
+    see: "Voir les campagnes"
+characters: Personnages
+campaigns: Campagnes
+professions:
+  warrior:
+    name: "Guerrier"
+    description: "Un guerrier est un combattant hors pair, capable de manier toutes les armes et de porter toutes les armures."
+    starting_equipment: "Une épée longue, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Toutes les armes et armures"
+  wizard:
+    name: "Magicien"
+    description: "Un magicien est un lanceur de sorts, capable de manipuler les énergies magiques pour lancer des sorts."
+    starting_equipment: "Un bâton, une robe de mage, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Bâton"
+  thief:
+    name: "Voleur"
+    description: "Un voleur est un personnage agile et discret, capable de se faufiler partout et de dérober des objets sans se faire repérer."
+    starting_equipment: "Une dague, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Dague"
+  priest:
+    name: "Prêtre"
+    description: "Un prêtre est un personnage dévoué à un dieu ou une déesse, capable de lancer des sorts de guérison et de protection."
+    starting_equipment: "Une masse, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Masse"
+  ranger:
+    name: "Rôdeur"
+    description: "Un rôdeur est un personnage capable de se déplacer rapidement et de survivre en milieu hostile."
+    starting_equipment: "Un arc long, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Arc long"
+characterTypes:
+  human:
+    name: "Humain"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  wood-elf:
+    name: "Elf Sylvain"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  dwarf:
+    name: "Nain"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  half-elf:
+    name: "Demi-Elf"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  half-orc:
+    name: "Demi-Orc"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  gnome:
+    name: "Gnome"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  halfling:
+    name: "Halfelin"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  high-elf:
+    name: "Haut-Elf"
+    description: ''
+    abilities: ''
+    typical_names: ''

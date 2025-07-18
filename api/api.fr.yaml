@@ -1,0 +1,13 @@
+api:
+  error:
+    missing_parameters: "Paramètres manquants"
+    campaign:
+      not_found: "Campagne introuvable"
+    game:
+      not_found: "Jeu introuvable"
+    user:
+      not_found: "Utilisateur introuvable"
+    character_type:
+      not_found: "Race introuvable"
+    profession:
+      not_found: "Profession introuvable"

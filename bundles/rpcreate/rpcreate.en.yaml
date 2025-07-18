@@ -1,0 +1,90 @@
+nav:
+  home: "Home"
+  community: "Community"
+  characters: "Characters"
+  campaigns: "Campaigns"
+  professions: "Professions"
+  characterTypes: "Character Types"
+  statistics: "Statistics"
+  about: "About"
+  contact: "Contact"
+  legal: "Legal Notice"
+  privacyPolicy: "Privacy Policy"
+components:
+  statistics:
+    title: "Statistics"
+  characters:
+    count: "Number of characters"
+    see: "See characters"
+  campaigns:
+    count: "Number of campaigns"
+    see: "See campaigns"
+characters: 'Characters'
+campaigns: 'Campaigns'
+professions:
+  warrior:
+    name: "Warrior"
+    description: "A warrior is a skilled fighter, capable of wielding a variety of weapons and armor."
+    starting_equipment: "A sword, a shield, a ration, a water bottle, a torch, a whetstone, a blanket, a purse with 10 gold pieces."
+    weaponArmor: "All weapons and armor"
+  wizard:
+    name: "Wizard"
+    description: "A wizard is a spellcaster, capable of manipulating magical energies to cast spells."
+    starting_equipment: "A staff, a mage's robe, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Staff"
+  thief:
+    name: "Thief"
+    description: "A thief is an agile and stealthy character, able to sneak anywhere and steal items undetected."
+    starting_equipment: "A dagger, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Dagger"
+  priest:
+    name: "Priest"
+    description: "A priest is a character devoted to a god or goddess, capable of casting healing and protective spells."
+    starting_equipment: "A mace, leather armor, a shield, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Mace"
+  ranger:
+    name: "Ranger"
+    description: "A ranger is a character capable of moving swiftly and surviving in hostile environments."
+    starting_equipment: "A longbow, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Longbow"
+characterTypes:
+  human:
+    name: "Human"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  wood-elf:
+    name: "Wood Elf"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  dwarf:
+    name: "Dwarf"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  half-elf:
+    name: "Half-Elf"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  half-orc:
+    name: "Half-Orc"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  gnome:
+    name: "Gnome"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  halfling:
+    name: "Halfling"
+    description: ''
+    abilities: ''
+    typical_names: ''
+  high-elf:
+    name: "High Elf"
+    description: ''
+    abilities: ''
+    typical_names: ''

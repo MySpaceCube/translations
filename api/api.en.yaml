@@ -1,0 +1,13 @@
+api:
+  error:
+    missing_parameters: "Missing parameter"
+    campaign:
+      not_found: "Campaign not found"
+    game:
+      not_found: "Game not found"
+    user:
+      not_found: "User not found"
+    character_type:
+      not_found: "Breed not found"
+    profession:
+      not_found: "Profession not found"

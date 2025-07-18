@@ -1,0 +1,114 @@
+budgets:
+  expense:
+    new: "Créer une dépense"
+    modal:
+      title: "Créer une dépense"
+    form:
+      name:
+        label: "Nom"
+      date:
+        label: "Date"
+      recurrence:
+        label: "Récurrence"
+  currencies:
+    USD: 'Dollar des États-Unis ($)'
+    USDT: 'Tether (stablecoin) (₮ ou $)'
+    CAD: 'Dollar canadien ($)'
+    MXN: 'Peso mexicain ($)'
+    BRL: 'Réal brésilien (R$)'
+    ARS: 'Peso argentin ($)'
+    CLP: 'Peso chilien ($)'
+    COP: 'Peso colombien ($)'
+    PEN: 'Sol péruvien (S/)'
+    VEF: 'Bolívar vénézuélien (Bs)'
+    VES: 'Bolívar vénézuélien (Bs)'
+    UYU: 'Peso uruguayen ($U)'
+    PYG: 'Guaraní paraguayen (₲)'
+    BOB: 'Boliviano bolivien (Bs)'
+    DOP: 'Peso dominicain (RD$)'
+    GTQ: 'Quetzal guatémaltèque (Q)'
+    HNL: 'Lempira hondurien (L)'
+    NIO: 'Córdoba nicaraguayen (C$)'
+    CRC: 'Colón costaricien (₡)'
+    SVC: 'Colón salvadorien (₡)'
+    PAB: 'Balboa panaméen (B/.)'
+    BZD: 'Dollar bélizien (BZ$)'
+    BSD: 'Dollar bahaméen (B$)'
+    JMD: 'Dollar jamaïcain (J$)'
+    HTG: 'Gourde haïtienne (G)'
+    CUP: 'Peso cubain (₱)'
+    CUC: 'Peso convertible cubain (utilisé avant 2021) (CUC$)'
+    XCD: 'Dollar des Caraïbes orientales ($)'
+    ANG: 'Florin antillais néerlandais (ƒ)'
+    GYD: 'Dollar du Guyana (G$)'
+    SRD: 'Dollar surinamais (SRD$)'
+    EUR: 'Euro (€)'
+    GBP: 'Livre sterling (£)'
+    CHF: 'Franc suisse (CHF)'
+    BGN: 'Lev bulgare (лв)'
+    CZK: 'Couronne tchèque (Kč)'
+    DKK: 'Couronne danoise (kr)'
+    HUF: 'Forint hongrois (Ft)'
+    PLN: 'Zloty polonais (zł)'
+    RON: 'Leu roumain (lei)'
+    SEK: 'Couronne suédoise (kr)'
+    ISK: 'Couronne islandaise (kr)'
+    NOK: 'Couronne norvégienne (kr)'
+    HRK: 'Kuna croate (remplacée par l’euro en 2023) (kn, historique)'
+    TRY: 'Livre turque (₺)'
+    RUB: 'Rouble russe (₽)'
+    ZAR: 'Rand sud-africain (R)'
+    CNY: 'Yuan renminbi chinois (¥)'
+    INR: 'Roupie indienne (₹)'
+    ILS: 'Nouveau shekel israélien (₪)'
+    HKD: 'Dollar de Hong Kong (HK$)'
+    IDR: 'Roupie indonésienne (Rp)'
+    KRW: 'Won sud-coréen (₩)'
+    MYR: 'Ringgit malaisien (RM)'
+    PHP: 'Peso philippin (₱)'
+    SGD: 'Dollar de Singapour (S$)'
+    THB: 'Baht thaïlandais (฿)'
+    AUD: 'Dollar australien (A$)'
+    NZD: 'Dollar néo-zélandais (NZ$)'
+  account:
+    shared:
+      with_me: "Partagé avec moi par %name%"
+      with: "Partagé avec %name%"
+    type:
+      market: "Marché"
+      card: "Carte"
+      loan: "Prêt"
+      savings: "Épargne"
+      checking: "Compte courant"
+      pea: "Plan d'Épargne en Actions"
+      pee: "Plan d'Épargne Entreprise"
+      per: "Plan d'Épargne Retraite"
+      perp: "Plan d'Épargne Retraite Populaire"
+
+  budget:
+    title: "Budgets"
+    no_budget: "Vous n'avez pas encore de budget"
+    new: "Créer un budget"
+    edit: "Modifier le budget"
+    delete: "Supprimer le budget"
+    delete_confirm: "Êtes-vous sûr de vouloir supprimer ce budget ?"
+    no_transaction: "Aucune transaction trouvée pour ce budget"
+  accounts:
+    title: "Comptes bancaires"
+    no_account: "Vous n'avez pas encore de compte bancaire rattaché à votre compte utilisateur"
+    new: "Créer un compte bancaire"
+    sync:
+      all_accounts: "Synchroniser tous les comptes"
+    create:
+      now: "Créer un compte bancaire maintenant"
+    type:
+      sync:
+        label: "Synchronisé"
+        description: "Le compte est synchronisé avec votre banque. La synchronisation est établie pour 180 jours. <br> Vous serez redirigé vers la page de connexion de votre banque. <br><br> Propulsé par Powens"
+      classic:
+        label: "Classique"
+        description: "Le compte n'est pas synchronisé avec votre banque. Vous pouvez ajouter manuellement des transactions et un solde."
+  error:
+    missing_setting: "Veuillez contacter votre administrateur ou vous rendre dans l'administration pour rajouter le paramètre manquant: %setting%"
+  index:
+    title: Budgets

@@ -1,0 +1,21 @@
+email:
+  subject:
+    password_changed:
+      by_admin: "Your password has been reset by an admin"
+    verification: "Verify your account"
+    reset_password: "Reset your password"
+    account_created: "Account created successfully"
+  title:
+    hello: "Hello!"
+    good_bye: "Cheers!"
+  account_created:
+    message1: "Your account has been created successfully"
+    message2: "You can log in with the following password: newPassword"
+  password_change:
+    by_admin:
+      message1: "Your password has been reset by an admin"
+      message2: "You can log in with the following password: newPassword"
+  verification:
+    email:
+      message1: "To verify your account, please click the button below"
+      message2: "This link will expire at expiresAt"

@@ -1,0 +1,12 @@
+security:
+  level:
+    0: 'None'
+    1: 'Critical'
+    2: 'Very Low'
+    3: 'Low'
+    4: 'Neutral'
+    5: 'Medium'
+    6: 'High'
+    7: 'Very High'
+    8: 'Extreme'
+    9: 'Optimal'

@@ -1,0 +1,25 @@
+email:
+  subject:
+    password_changed:
+      by_admin: "Votre mot de passe a été réinitialisé par un administrateur"
+    verification: "Vérification de votre adresse email"
+    reset_password: "Réinitialisation de votre mot de passe"
+    account_created: "Compte créé avec succès"
+    suspicious_login: "Connexion suspecte détectée"
+  title:
+    hello: "Bonjour!"
+    good_bye: "À bientôt!"
+  account_created:
+    message1: "Votre compte a été créé avec succès"
+    message2: "Vous pouvez vous connecter avec le mot de passe suivant : newPassword"
+  password_change:
+    by_admin:
+      message1: "Votre mot de passe a été réinitialisé par un administrateur"
+      message2: "Vous pouvez vous connecter avec le mot de passe suivant : newPassword"
+  suspicious:
+    message: "Une activité suspecte a été détectée sur votre compte. Si vous êtes à l'origine de cette action, vous pouvez ignorer ce message. Sinon, nous vous recommandons de changer votre mot de passe dès que possible."
+    go_to: "Modifier mes paramètres de sécurité"
+  verification:
+    email:
+      message1: "Pour vérifier votre adresse email, veuillez cliquer sur le lien ci-dessous"
+      message2: "Le lien est valable jusqu'au expiresAt"

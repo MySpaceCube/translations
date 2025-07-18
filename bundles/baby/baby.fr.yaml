@@ -1,0 +1,80 @@
+baby:
+  form:
+    milking:
+      success: "L'allaitement a été enregistré avec succès."
+    sleep:
+      success: "Le sommeil a été enregistré avec succès."
+    layer_change:
+      success: "Le changement de couche a été enregistré avec succès."
+  index:
+    title: "Bébé"
+    history: "Historique"
+  history:
+    title: "Historique"
+    breasts:
+      title: "Historique d'allaitement"
+      duration: "Durée"
+      pump_at: "Pompé/allaité à"
+      which: "Quel sein ?"
+      start_with: "Commencer avec"
+    layer_changes:
+      title: "Historique de changement de couche"
+      change_at: "Changé à"
+      is_poop: "Caca ?"
+      color: "Couleur"
+      description: "Description"
+    sleeps:
+      title: "Historique de sommeil"
+      start_at: "Commencé à"
+      end_at: "Terminé à"
+  card:
+    global_statistics:
+      title: "Statistiques globales pour name"
+      breast:
+        title: "Allaitement"
+        next: "Prochain"
+      sleep:
+        title: "Sommeil"
+        average_hours_per_day: "Heures / jour"
+        average_interval_between_sleeps: "Intervalle (heures)"
+        estimated_next_sleep: "Prochain"
+      layer_change:
+          title: "Changement de couche"
+          per_day: "Nombre / jour"
+          poop_per_day: "Caca / jour"
+          average_interval: "Intervalle (heures)"
+          next: "Prochain"
+      average:
+        breast_feed_duration: "Durée (minutes)"
+        breast_feed_per_day: "Nombre / jour"
+        interval_between_breast_feeds: "Intervalle (heures)"
+  modal:
+    layer_change_log:
+      title: "Changer la couche"
+    sleep_log:
+      title: "Enregistrer le sommeil"
+    breasts_pump_log:
+      title: "Enregistrer l'allaitement"
+  breasts_pump_log:
+    breast_start:
+      label: "Commencer avec"
+    which:
+      label: "Quel sein ?"
+    pump_at:
+      label: "Pompé/allaité à"
+    duration:
+      label: "Durée (en minutes)"
+  sleep_log:
+    start_at:
+      label: "Commencé à"
+    end_at:
+      label: "Terminé à"
+  layer_change_log:
+    change_at:
+      label: "Changé à"
+    is_poop:
+      label: "Caca ?"
+    color:
+      label: "Couleur"
+    description:
+      label: "Description"
