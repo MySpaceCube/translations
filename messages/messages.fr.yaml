@@ -235,6 +235,46 @@ maintenance:
   message1: "Nous reviendrons"
   message2: "Nous sommes occupés à mettre à jour le site pour vous"
   message3: "Merci de revenir plus tard ou de regarder les réseaux sociaux en attendant"
+
+components:
+  fyra:
+    random:
+      title: "Activité aléatoire"
+      description: "Découvrez une activité aléatoire basé sur vos sélections"
+    movies:
+      add:
+        title: "Ajouter un film"
+        description: "Ajoutez un film à votre liste de films"
+  budgets:
+    balance:
+      title: "Solde total"
+      description: "Le solde total de tous vos comptes bancaires"
+  rp_create:
+    statistics:
+      global:
+        title: "Statistiques globales"
+        description: "Affichez les statistiques globales, le nombre de personnages, de campagnes."
+  health:
+    weight:
+      chart:
+        title: "Évolution du poids"
+        description: "Suivez l'évolution de votre poids au fil du temps"
+
+installation:
+  install:
+    finish: "Terminer l'installation"
+    title: "Installation de l'application"
+    step:
+      appname:
+        title: "Nom de l'application"
+        help: "Le nom de l'application, il sera utilisé dans le titre du site"
+      admin:
+        title: "Compte administrateur"
+        help: "Le compte administrateur est le compte qui aura tous les droits sur l'application"
+      features:
+        title: "Fonctionnalités"
+        help: "Sélectionnez les fonctionnalités que vous souhaitez activer pour l'application"
+
 pages:
   dashboard:
     day_info:

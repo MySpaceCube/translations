@@ -1,0 +1,9 @@
+market:
+  title: "Buying List"
+  description: "Manage your buying lists and products."
+  start: "Start Shopping"
+  finish: "Finish Shopping"
+  nav:
+    home: "Buying List"
+    products:
+      list: "Products"

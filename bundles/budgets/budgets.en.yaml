@@ -19,6 +19,12 @@ budgets:
     delete: "Delete the budget"
     delete_confirm: "Are you sure you want to delete this budget?"
     no_transaction: "No transaction found for this budget"
+    shared_with: "Shared with:"
+    expense:
+      form:
+        step1: "Step 1: Define a name for the expense and the amount"
+        step2: "Step 2: Choose the date and the recurrence"
+      add: "Add an expense"
   accounts:
     title: "Bank accounts"
     no_account: "You don't have any bank account linked to your user account"

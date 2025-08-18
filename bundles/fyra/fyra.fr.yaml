@@ -14,6 +14,13 @@ fyra:
   meal:
     single: 'Repas'
     plural: 'Repas'
+    duration: 'Durée'
+    durationCooking: 'Durée de Cuisson'
+    durationPreparation: 'Durée de Préparation'
+    durationRest: 'Durée de Repos'
+    difficulty: 'Difficulté'
+    price: 'Prix'
+    addProductInBag: 'Ajouter le Produit à la Liste de Courses'
   nav:
     random: 'Fyra Aléatoire'
     home: 'Accueil'

@@ -6,6 +6,8 @@ budgets:
     form:
       name:
         label: "Nom"
+      amount:
+        label: "Montant"
       date:
         label: "Date"
       recurrence:
@@ -93,6 +95,12 @@ budgets:
     delete: "Supprimer le budget"
     delete_confirm: "Êtes-vous sûr de vouloir supprimer ce budget ?"
     no_transaction: "Aucune transaction trouvée pour ce budget"
+    shared_with: "Partagé avec :"
+    form:
+      step1: "Étape 1 : Définir un nom pour la dépense et le montant"
+      step2: "Étape 2 : Choisir la date et la récurrence"
+    expense:
+      add: "Ajouter une dépense"
   accounts:
     title: "Comptes bancaires"
     no_account: "Vous n'avez pas encore de compte bancaire rattaché à votre compte utilisateur"

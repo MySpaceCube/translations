@@ -236,6 +236,37 @@ maintenance:
   message1: "We'll be back"
   message2: "We're busy updating the site for you"
   message3: "Please check back soon or check the social network"
+
+components:
+  fyra:
+    random:
+      title: "Find Your Random Activity"
+      description: "Get a random activity saved in your Fyra database. Click the button below to discover a new activity by category."
+  budgets:
+    balance:
+      title: "Total Balance"
+      description: "Your total balance is the sum of all your incomes minus your expenses."
+  rp_create:
+    statistics:
+      global:
+        title: "Global Statistics"
+        description: "Here you can find the global statistics of all your characters and campaigns."
+
+installation:
+  install:
+    finish: "Finish the installation"
+    title: "Installation"
+    step:
+      appname:
+        title: "Application name"
+        help: "The name of your application"
+      admin:
+        title: "Admin account"
+        help: "The admin account is used to manage the application"
+      features:
+        title: "Features"
+        help: "Select the features you want to install on your application"
+
 pages:
   dashboard:
     day_info:

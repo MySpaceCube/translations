@@ -1,0 +1,9 @@
+market:
+  title: "Liste de courses"
+  description: "Gérez vos listes de courses et vos produits."
+  finish: "Terminer les courses"
+  start: "Commencer les courses"
+  nav:
+    home: "Buying List"
+    products:
+      list: "Products"
