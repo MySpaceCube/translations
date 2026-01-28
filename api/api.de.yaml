@@ -1,0 +1,13 @@
+api:
+  error:
+    missing_parameters: "Fehlender Parameter"
+    campaign:
+      not_found: "Kampagne nicht gefunden"
+    game:
+      not_found: "Spiel nicht gefunden"
+    user:
+      not_found: "Benutzer nicht gefunden"
+    character_type:
+      not_found: "Rasse nicht gefunden"
+    profession:
+      not_found: "Beruf nicht gefunden"

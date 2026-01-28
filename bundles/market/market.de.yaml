@@ -1,0 +1,9 @@
+market:
+  title: "Einkaufsliste"
+  description: "Verwalte deine Einkaufslisten und Produkte."
+  start: "Einkauf starten"
+  finish: "Einkauf beenden"
+  nav:
+    home: "Einkaufsliste"
+    products:
+      list: "Produkte"

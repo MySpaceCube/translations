@@ -1,0 +1,39 @@
+fyra:
+  movie:
+    single: 'Film'
+    plural: 'Filme'
+  tv_show:
+    single: 'Fernsehserie'
+    plural: 'Fernsehserien'
+  game:
+    single: 'Spiel'
+    plural: 'Spiele'
+  activity:
+    single: 'Aktivität'
+    plural: 'Aktivitäten'
+  meal:
+    single: 'Mahlzeit'
+    plural: 'Mahlzeiten'
+    duration: 'Dauer'
+    durationCooking: 'Kochdauer'
+    durationPreparation: 'Vorbereitungsdauer'
+    durationRest: 'Ruhedauer'
+    difficulty: 'Schwierigkeitsgrad'
+    price: 'Preis'
+    addProductInBag: 'Produkt zur Einkaufsliste hinzufügen'
+  nav:
+    random: nav.random
+    home: 'Startseite'
+    market: 'Markt'
+    data:
+      title: 'Daten'
+      movies: 'Filme'
+      tv_shows: 'Fernsehserien'
+      games: 'Spiele'
+      activities: 'Aktivitäten'
+      meals: 'Mahlzeiten'
+      products: 'Produkte'
+  pages:
+    random:
+      h1: 'Finde deine zufällige Aktivität'
+      show_result: 'Ergebnis anzeigen'

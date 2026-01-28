@@ -1,0 +1,80 @@
+baby:
+  form:
+    milking:
+      success: "Stillen wurde erfolgreich erfasst."
+    sleep:
+      success: "Schlaf wurde erfolgreich erfasst."
+    layer_change:
+      success: "Windelwechsel wurde erfolgreich erfasst."
+  index:
+    title: "Baby"
+    history: "Verlauf"
+  history:
+    title: "Verlauf"
+    breasts:
+      title: "Stillverlauf"
+      duration: "Dauer"
+      pump_at: "Gestillt / abgepumpt um"
+      which: "Welche Brust?"
+      start_with: "Beginnen mit"
+    layer_changes:
+      title: "Windelwechselverlauf"
+      change_at: "Gewechselt um"
+      is_poop: "Stuhlgang?"
+      color: "Farbe"
+      description: "Beschreibung"
+    sleeps:
+      title: "Schlafverlauf"
+      start_at: "Beginn um"
+      end_at: "Ende um"
+  card:
+    global_statistics:
+      title: "Globale Statistiken für name"
+      breast:
+        title: "Stillen"
+        next: "Nächstes Mal"
+      sleep:
+        title: "Schlaf"
+        average_hours_per_day: "Stunden / Tag"
+        average_interval_between_sleeps: "Intervall (Stunden)"
+        estimated_next_sleep: "Nächster Schlaf"
+      layer_change:
+        title: "Windelwechsel"
+        per_day: "Anzahl / Tag"
+        poop_per_day: "Stuhlgang / Tag"
+        average_interval: "Intervall (Stunden)"
+        next: "Nächster Wechsel"
+      average:
+        breast_feed_duration: "Dauer (Minuten)"
+        breast_feed_per_day: "Anzahl / Tag"
+        interval_between_breast_feeds: "Intervall zwischen Stillen (Stunden)"
+  modal:
+    layer_change_log:
+      title: "Windelwechsel"
+    sleep_log:
+      title: "Schlaf protokollieren"
+    breasts_pump_log:
+      title: "Stillen protokollieren"
+  breasts_pump_log:
+    breast_start:
+      label: "Beginnen mit"
+    which:
+      label: "Welche Brust?"
+    pump_at:
+      label: "Gestillt / abgepumpt um"
+    duration:
+      label: "Dauer (in Minuten)"
+  sleep_log:
+    start_at:
+      label: "Beginn um"
+    end_at:
+      label: "Ende um"
+  layer_change_log:
+    change_at:
+      label: "Gewechselt um"
+    is_poop:
+      label: "Stuhlgang?"
+    color:
+      label: "Farbe"
+    description:
+      label: "Beschreibung"

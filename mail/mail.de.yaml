@@ -1,0 +1,25 @@
+email:
+  subject:
+    password_changed:
+      by_admin: "Ihr Passwort wurde von einem Administrator zurückgesetzt"
+    verification: "Verifizieren Sie Ihre E-Mail-Adresse"
+    reset_password: "Setzen Sie Ihr Passwort zurück"
+    account_created: "Konto erfolgreich erstellt"
+    suspicious_login: "Verdächtiger Login erkannt"
+  title:
+    hello: "Hallo!"
+    good_bye: "Bis bald!"
+  account_created:
+    message1: "Ihr Konto wurde erfolgreich erstellt"
+    message2: "Sie können sich mit folgendem Passwort anmelden: newPassword"
+  password_change:
+    by_admin:
+      message1: "Ihr Passwort wurde von einem Administrator zurückgesetzt"
+      message2: "Sie können sich mit folgendem Passwort anmelden: newPassword"
+  suspicious:
+    message: "Auf Ihrem Konto wurde verdächtige Aktivität festgestellt. Wenn Sie dies waren, können Sie diese Nachricht ignorieren. Andernfalls empfehlen wir, Ihr Passwort so schnell wie möglich zu ändern."
+    go_to: "Meine Sicherheitseinstellungen aktualisieren"
+  verification:
+    email:
+      message1: "Um Ihre E-Mail-Adresse zu verifizieren, klicken Sie bitte auf den untenstehenden Link"
+      message2: "Der Link ist gültig bis expiresAt"

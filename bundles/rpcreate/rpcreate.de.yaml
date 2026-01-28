@@ -1,0 +1,97 @@
+nav:
+  home: "Startseite"
+  community: "Gemeinschaft"
+  characters: "Charaktere"
+  campaigns: "Kampagnen"
+  professions: "Berufe"
+  characterTypes: "Charaktertypen"
+  statistics: "Statistiken"
+  about: "Über uns"
+  contact: "Kontakt"
+  legal: "Impressum"
+  privacyPolicy: "Datenschutzrichtlinie"
+  create:
+    character: "Charakter erstellen"
+    campaign: "Kampagne erstellen"
+
+components:
+  statistics:
+    title: "Statistiken"
+  characters:
+    count: "Anzahl der Charaktere"
+    see: "Charaktere ansehen"
+  campaigns:
+    count: "Anzahl der Kampagnen"
+    see: "Kampagnen ansehen"
+
+characters: "Charaktere"
+campaigns: "Kampagnen"
+
+professions:
+  warrior:
+    name: "Krieger"
+    description: "Ein Krieger ist ein erfahrener Kämpfer, fähig, verschiedene Waffen und Rüstungen zu führen."
+    starting_equipment: "Ein Schwert, ein Schild, eine Ration, eine Wasserflasche, eine Fackel, ein Wetzstein, eine Decke, ein Beutel mit 10 Goldstücken."
+    weaponArmor: "Alle Waffen und Rüstungen"
+  wizard:
+    name: "Zauberer"
+    description: "Ein Zauberer ist ein Magier, der magische Energien manipuliert, um Zauber zu wirken."
+    starting_equipment: "Ein Stab, eine Magierrobe, eine Überlebensration, ein Fläschchen, eine Fackel, ein Wetzstein, eine Decke, ein Beutel mit 10 Goldstücken."
+    weaponArmor: "Stab"
+  thief:
+    name: "Dieb"
+    description: "Ein Dieb ist ein agiler und heimlicher Charakter, der sich überall unbemerkt bewegen und Gegenstände stehlen kann."
+    starting_equipment: "Ein Dolch, Lederrüstung, eine Überlebensration, ein Fläschchen, eine Fackel, ein Wetzstein, eine Decke, ein Beutel mit 10 Goldstücken."
+    weaponArmor: "Dolch"
+  priest:
+    name: "Priester"
+    description: "Ein Priester ist einem Gott oder einer Göttin gewidmet und kann heilende und schützende Zauber wirken."
+    starting_equipment: "Eine Keule, Lederrüstung, ein Schild, eine Überlebensration, ein Fläschchen, eine Fackel, ein Wetzstein, eine Decke, ein Beutel mit 10 Goldstücken."
+    weaponArmor: "Keule"
+  ranger:
+    name: "Waldläufer"
+    description: "Ein Waldläufer ist ein Charakter, der sich schnell bewegen und in feindlichen Umgebungen überleben kann."
+    starting_equipment: "Ein Langbogen, Lederrüstung, eine Überlebensration, ein Fläschchen, eine Fackel, ein Wetzstein, eine Decke, ein Beutel mit 10 Goldstücken."
+    weaponArmor: "Langbogen"
+
+characterTypes:
+  human:
+    name: "Mensch"
+    description: ""
+    abilities: ""
+    typical_names: ""
+  wood-elf:
+    name: "Waldelf"
+    description: ""
+    abilities: ""
+    typical_names: ""
+  dwarf:
+    name: "Zwerg"
+    description: ""
+    abilities: ""
+    typical_names: ""
+  half-elf:
+    name: "Halbelf"
+    description: ""
+    abilities: ""
+    typical_names: ""
+  half-orc:
+    name: "Halbork"
+    description: ""
+    abilities: ""
+    typical_names: ""
+  gnome:
+    name: "Gnom"
+    description: ""
+    abilities: ""
+    typical_names: ""
+  halfling:
+    name: "Halbling"
+    description: ""
+    abilities: ""
+    typical_names: ""
+  high-elf:
+    name: "Hochelf"
+    description: ""
+    abilities: ""
+    typical_names: ""
