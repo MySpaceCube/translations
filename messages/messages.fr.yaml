@@ -104,6 +104,8 @@ global:
   refuse: "Refuser"
   next: "Suivant"
   previous: "Précédent"
+  cancel: "Annuler"
+  reset: "Réinitialiser"
   select: "Sélectionner"
   select_games:
     label: "Sélectionnez un jeu"
@@ -664,6 +666,13 @@ pages:
         empty: "L'email ne peut pas être vide"
       preference:
         title: "Préférences"
+        currency:
+          label: "Devise"
+        theme_mode:
+          label: "Mode thème"
+          light: "Clair"
+          dark: "Sombre"
+          sync: "Synchroniser avec le système"
         is_enabled_sound:
           label: "Activer le son (Sur la page de création de personnage)"
         is_enabled_music:

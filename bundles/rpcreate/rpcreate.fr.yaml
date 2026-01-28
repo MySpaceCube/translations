@@ -10,6 +10,8 @@ nav:
   contact: Contact
   legal: Mentions légales
   privacyPolicy: Politique de confidentialité
+  create:
+    character: "Créer un personnage"
 components:
   statistics:
     title: "Statistiques"

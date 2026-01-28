@@ -1,46 +1,127 @@
 budgets:
   expense:
-    new: "Create an expense"
+    new: "General Information"
+    description: "Details of your budget"
     modal:
-      title: "Create an expense"
+      title: "Create an Expense"
     form:
       name:
-        label: "Name"
+        label: "Expense Name"
+      amount:
+        label: "Amount"
       date:
-        label: "Date"
+        label: "Payment Date"
       recurrence:
         label: "Recurrence"
-
+  currencies:
+    USD: 'US Dollar ($)'
+    USDT: 'Tether (stablecoin) (₮ or $)'
+    CAD: 'Canadian Dollar ($)'
+    MXN: 'Mexican Peso ($)'
+    BRL: 'Brazilian Real (R$)'
+    ARS: 'Argentine Peso ($)'
+    CLP: 'Chilean Peso ($)'
+    COP: 'Colombian Peso ($)'
+    PEN: 'Peruvian Sol (S/)'
+    VEF: 'Venezuelan Bolívar (Bs)'
+    VES: 'Venezuelan Bolívar (Bs)'
+    UYU: 'Uruguayan Peso ($U)'
+    PYG: 'Paraguayan Guaraní (₲)'
+    BOB: 'Bolivian Boliviano (Bs)'
+    DOP: 'Dominican Peso (RD$)'
+    GTQ: 'Guatemalan Quetzal (Q)'
+    HNL: 'Honduran Lempira (L)'
+    NIO: 'Nicaraguan Córdoba (C$)'
+    CRC: 'Costa Rican Colón (₡)'
+    SVC: 'Salvadoran Colón (₡)'
+    PAB: 'Panamanian Balboa (B/.)'
+    BZD: 'Belize Dollar (BZ$)'
+    BSD: 'Bahamian Dollar (B$)'
+    JMD: 'Jamaican Dollar (J$)'
+    HTG: 'Haitian Gourde (G)'
+    CUP: 'Cuban Peso (₱)'
+    CUC: 'Cuban Convertible Peso (used before 2021) (CUC$)'
+    XCD: 'East Caribbean Dollar ($)'
+    ANG: 'Netherlands Antillean Guilder (ƒ)'
+    GYD: 'Guyanese Dollar (G$)'
+    SRD: 'Surinamese Dollar (SRD$)'
+    EUR: 'Euro (€)'
+    GBP: 'British Pound (£)'
+    CHF: 'Swiss Franc (CHF)'
+    BGN: 'Bulgarian Lev (лв)'
+    CZK: 'Czech Koruna (Kč)'
+    DKK: 'Danish Krone (kr)'
+    HUF: 'Hungarian Forint (Ft)'
+    PLN: 'Polish Zloty (zł)'
+    RON: 'Romanian Leu (lei)'
+    SEK: 'Swedish Krona (kr)'
+    ISK: 'Icelandic Krona (kr)'
+    NOK: 'Norwegian Krone (kr)'
+    HRK: 'Croatian Kuna (replaced by Euro in 2023) (kn, historical)'
+    TRY: 'Turkish Lira (₺)'
+    RUB: 'Russian Ruble (₽)'
+    ZAR: 'South African Rand (R)'
+    CNY: 'Chinese Yuan Renminbi (¥)'
+    INR: 'Indian Rupee (₹)'
+    ILS: 'Israeli New Shekel (₪)'
+    HKD: 'Hong Kong Dollar (HK$)'
+    IDR: 'Indonesian Rupiah (Rp)'
+    KRW: 'South Korean Won (₩)'
+    MYR: 'Malaysian Ringgit (RM)'
+    PHP: 'Philippine Peso (₱)'
+    SGD: 'Singapore Dollar (S$)'
+    THB: 'Thai Baht (฿)'
+    AUD: 'Australian Dollar (A$)'
+    NZD: 'New Zealand Dollar (NZ$)'
+  account:
+    shared:
+      with_me: "Shared with me by %name%"
+      with: "Shared with %name%"
+    type:
+      market: "Market"
+      card: "Card"
+      loan: "Loan"
+      savings: "Savings"
+      checking: "Checking Account"
+      pea: "Equity Savings Plan"
+      pee: "Company Savings Plan"
+      per: "Retirement Savings Plan"
+      perp: "Popular Retirement Savings Plan"
   budget:
     title: "Budgets"
-    no_budget: "You don't have any budget yet"
-    new: "Create a budget"
-    edit: "Edit the budget"
-    delete: "Delete the budget"
+    no_budget: "You do not have any budgets yet"
+    new: "Create a Budget"
+    edit: "Edit Budget"
+    delete: "Delete Budget"
     delete_confirm: "Are you sure you want to delete this budget?"
-    no_transaction: "No transaction found for this budget"
+    no_transaction: "No transactions found for this budget"
     shared_with: "Shared with:"
+    form:
+      step1: "Step 1: Set a name and amount for the expense"
+      step2: "Step 2: Choose the date and recurrence"
     expense:
-      form:
-        step1: "Step 1: Define a name for the expense and the amount"
-        step2: "Step 2: Choose the date and the recurrence"
-      add: "Add an expense"
+      add: "Add an Expense"
   accounts:
-    title: "Bank accounts"
-    no_account: "You don't have any bank account linked to your user account"
-    new: "Create a bank account"
+    title: "Bank Accounts"
+    no_account: "You do not have any bank accounts linked to your user account yet"
+    new: "Create a Bank Account"
     sync:
-      all_accounts: "Synchroniser tous les comptes"
+      all_accounts: "Sync All Accounts"
     create:
-      now: "Create a bank account now"
+      title: "Bank Information"
+      description: "Details of your bank"
+      account-details:
+        title: 'Account Details'
+        description: 'Bank information and credentials'
+      now: "Create a Bank Account Now"
     type:
       sync:
-        label: "Synchronized"
-        description: "The account is synchronized with your bank. The synchronization is etablished for 180 days. <br> You will be redirected to your bank login page. <br><br> Powered by Powens"
+        label: "Synced"
+        description: "The account is synced with your bank. Synchronization lasts 180 days. <br> You will be redirected to your bank's login page. <br><br> Powered by Powens"
       classic:
         label: "Classic"
-        description: "The account is not synchronized with your bank. You can manually add transactions and balance."
+        description: "The account is not synced with your bank. You can manually add transactions and a balance."
   error:
     missing_setting: "Please contact your administrator or go to the administration to add the missing setting: %setting%"
   index:
-    title: Budgets
+    title: "Budgets"

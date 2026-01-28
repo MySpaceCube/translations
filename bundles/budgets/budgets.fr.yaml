@@ -1,15 +1,16 @@
 budgets:
   expense:
-    new: "Créer une dépense"
+    new: "Informations Générales"
+    description: "Détails de votre budget"
     modal:
       title: "Créer une dépense"
     form:
       name:
-        label: "Nom"
+        label: "Nom de la dépense"
       amount:
         label: "Montant"
       date:
-        label: "Date"
+        label: "Date de paiement"
       recurrence:
         label: "Récurrence"
   currencies:
@@ -108,6 +109,11 @@ budgets:
     sync:
       all_accounts: "Synchroniser tous les comptes"
     create:
+      title: "Informations Bancaires"
+      description: "Détails de votre établissement bancaire"
+      account-details:
+        title: 'Détails du compte'
+        description: 'Informations et identifiants bancaires'
       now: "Créer un compte bancaire maintenant"
     type:
       sync:

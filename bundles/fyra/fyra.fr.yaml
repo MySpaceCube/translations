@@ -32,6 +32,7 @@ fyra:
       games: 'Jeux'
       activities: 'Activités'
       meals: 'Repas'
+      products: 'Produits'
   pages:
     random:
       h1: 'Trouvez Votre Activité Aléatoire'

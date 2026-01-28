@@ -104,6 +104,8 @@ global:
   refuse: "Refuse"
   next: "Next"
   previous: "Previous"
+  cancel: "Cancel"
+  reset: "Reset"
   select: "Select"
   select_games:
     label: "Select the game"

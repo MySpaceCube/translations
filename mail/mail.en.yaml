@@ -1,21 +1,25 @@
 email:
   subject:
     password_changed:
-      by_admin: "Your password has been reset by an admin"
-    verification: "Verify your account"
+      by_admin: "Your password has been reset by an administrator"
+    verification: "Verify your email address"
     reset_password: "Reset your password"
-    account_created: "Account created successfully"
+    account_created: "Account successfully created"
+    suspicious_login: "Suspicious login detected"
   title:
     hello: "Hello!"
-    good_bye: "Cheers!"
+    good_bye: "See you soon!"
   account_created:
-    message1: "Your account has been created successfully"
+    message1: "Your account has been successfully created"
     message2: "You can log in with the following password: newPassword"
   password_change:
     by_admin:
-      message1: "Your password has been reset by an admin"
+      message1: "Your password has been reset by an administrator"
       message2: "You can log in with the following password: newPassword"
+  suspicious:
+    message: "Suspicious activity has been detected on your account. If this was you, you can ignore this message. Otherwise, we recommend changing your password as soon as possible."
+    go_to: "Update my security settings"
   verification:
     email:
-      message1: "To verify your account, please click the button below"
-      message2: "This link will expire at expiresAt"
+      message1: "To verify your email address, please click the link below"
+      message2: "The link is valid until expiresAt"
